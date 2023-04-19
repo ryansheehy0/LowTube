@@ -1,6 +1,6 @@
-# TubeSimplified
+# LowTube
 
-- TubeSimplified is meant to simplify youtube for the purpose of better performance, lower data usage, and to fix some minor UI problems. It isn't meant to give all the features of youtube or to look nice.
+- LowTube is meant to simplify youtube for the purpose of better performance, lower data usage, and to fix some minor UI problems. It isn't meant to give all the features of youtube or to look nice.
 - Index: Screenshots will be provided
 	- [Logo](#logo)
 	- [Heading](#heading)
@@ -13,7 +13,11 @@
 
 ## Logo
 
+![](./public/low_tube_logo_192.png)
+
 ## Heading
+
+![](./screenshots/navbar.png)
 
 ## Video List
 - There are different types of videos for the pages of Home, Subs, Search, History, and playlists.
