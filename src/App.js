@@ -1,10 +1,11 @@
-import './App.css';
-import { Navbar } from './components';
+import AppCss from './App.module.css';
+import { Navbar, VideoPage, VideoView } from './components';
 
 function App() {
   return (
-    <div className='App'>
+    <div className={AppCss.App}>
       <Navbar/>
+      <VideoPage/>
     </div>
   );
 }

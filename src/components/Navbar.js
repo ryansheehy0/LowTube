@@ -1,4 +1,4 @@
-import '../styles/Navbar.css'
+import NavbarCss from '../styles/Navbar.module.css'
 import React, {useState} from 'react'
 /*
 Todo:
@@ -32,12 +32,12 @@ function Navbar() {
 	}
 
 	return (
-		<div className='Navbar'>
-			<button className='Home' onClick={homeClicked} id={toggleHome ? 'clicked' : 'unclicked'}>Home</button>
-			<button className='Subs' onClick={subsClicked} id={toggleSubs ? 'clicked' : 'unclicked'}>Subs</button>
-			<button className='Libr' onClick={librClicked} id={toggleLibr ? 'clicked' : 'unclicked'}>Libr</button>
-			<input type='text' placeholder='Search' className='Search'/>
-			<button className='Email'>Email</button>
+		<div className={NavbarCss.Navbar}>
+			<button className={NavbarCss.Home} onClick={homeClicked} id={toggleHome ? 'clicked' : 'unclicked'}>Home</button>
+			<button className={NavbarCss.Subs} onClick={subsClicked} id={toggleSubs ? 'clicked' : 'unclicked'}>Subs</button>
+			<button className={NavbarCss.Libr} onClick={librClicked} id={toggleLibr ? 'clicked' : 'unclicked'}>Libr</button>
+			<input className={NavbarCss.Search} type='text' placeholder='Search'/>
+			<button className={NavbarCss.Acct}>Acct</button>
 		</div>
 	)
 }

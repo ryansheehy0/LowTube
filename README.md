@@ -1,7 +1,8 @@
 # LowTube
 
 - LowTube is meant to simplify youtube for the purpose of better performance, lower data usage, and to fix some minor UI problems. It isn't meant to give all the features of youtube or to look nice.
-- Index: Screenshots will be provided
+- The future of LowTube is meant to be the front end for any video streaming service. This would include Odysee, Netflix, Twitch, etc. 
+- Index:
 	- [Logo](#logo)
 	- [Heading](#heading)
 	- [Video List](#video-list)

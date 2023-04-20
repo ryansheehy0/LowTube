@@ -1,0 +1,60 @@
+.VideoView {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 14px;
+	position: absolute;
+	top: 52px;
+	left: 2px;
+	display: flex;
+	flex-direction: column;
+	width: 250px;
+	color: white;
+	background-color: black;
+	outline: 1px solid white;
+}
+
+.Thumbnail {
+	width: 100%;
+	outline: 1px solid white;
+}
+
+.VideoTitle {
+	text-align: left;
+	overflow: scroll;
+	white-space: nowrap;
+	height: 26px;
+	position: relative;
+	left: 5px;
+	width: calc(100% - 5px);
+}
+
+.TimeContainer {
+	width: 100%;
+}
+.Time,
+.Uploaded {
+  display: inline-block;
+  width: 50%;
+}
+
+.Time {
+	text-align: left;
+	position: relative;
+	left: 5px;
+}
+
+.Uploaded {
+	text-align: right;
+	position: relative;
+	right: 5px;
+}
+
+.Channel, .Plst {
+	border: none;
+	height: 50px;
+	font-size: 14px;
+	font-family: 'Roboto Mono', monospace;
+	outline: 1px solid white;
+	background-color: black;
+	color: white;
+	width: 50%;
+}
