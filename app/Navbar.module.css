@@ -1,0 +1,45 @@
+@import url("/globals.css");
+
+.Navbar {
+	height: var(--navbar-height);
+	display: flex;
+	flex-wrap: nowrap;
+	position: fixed;
+	top: 1px;
+	left: 2px;
+	width: calc(100% - 4px);
+	z-index: 1;
+}
+
+.Home, .Subs, .Libr, .Acct, .Search {
+	color: var(--secondary-color);
+	background-color: var(--primary-color);
+	outline: 1px solid var(--secondary-color);
+	font-family: 'Roboto Mono', monospace;
+	height: 100%;
+	font-size: 14px;
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
+.Home, .Subs, .Libr, .Acct {
+	width: var(--button-width-2);
+}
+
+.Search {
+	flex-grow: 1;
+	text-indent: 5px;
+	width: calc(100% - (4 * var(--button-width-2)));
+}
+
+.Home {
+	background-color: var(--secondary-color);
+	color: var(--primary-color);
+}
+
+@media only screen and ( width < 420px ) {
+	.Navbar {
+		top: calc(100% - (2px + var(--navbar-height)));
+	}
+}

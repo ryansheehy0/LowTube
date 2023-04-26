@@ -1,0 +1,11 @@
+:root {
+  --primary-color: #000000;
+  --secondary-color: #ffffff;
+  --navbar-height: 50px;
+  --button-width-1: 50px;
+  --button-width-2: 75px;
+}
+
+body {
+  background-color: var(--primary-color);
+}
